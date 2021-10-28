@@ -15,22 +15,22 @@ const typeDefs = gql`
     savedBooks: [Book]
   }
 
-  input Book {
-    bookID: Int
+  type Book {
+    bookID: ID!
     authors: [String]!
     description: String
     title: String
-    media: [MediaDetails!]
+    image: String
     link: String
   }
 
-  input MediaDetails {
-    format: MediaFormat!
-    url: String!
-  }
-
-  enum MediaFormat {
-    IMAGE
+  input BookInput {
+    bookID: ID!
+    authors: [String]!
+    description: String
+    title: String
+    image: String
+    link: String
   }
 
   type Auth {
@@ -41,7 +41,7 @@ const typeDefs = gql`
   type Mutation {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
-    saveBook(content: Book!): User
+    saveBook(content: BookInput!): User
     removeBook(bookId: Int): User
   }
 `;
