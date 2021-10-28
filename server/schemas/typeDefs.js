@@ -1,4 +1,4 @@
-const { gql } = require('apollo-server-express');
+const { gql } = require("apollo-server-express");
 
 const typeDefs = gql`
   type Query {
@@ -25,12 +25,12 @@ const typeDefs = gql`
   }
 
   input MediaDetails {
-      format: MediaFormat!
-      url: String!
+    format: MediaFormat!
+    url: String!
   }
 
-  enum MediaFormat{
-      IMAGE
+  enum MediaFormat {
+    IMAGE
   }
 
   type Auth {
@@ -44,3 +44,6 @@ const typeDefs = gql`
     saveBook(content: Book!): User
     removeBook(bookId: Int): User
   }
+`;
+
+module.exports = typeDefs;
