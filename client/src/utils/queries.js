@@ -1,7 +1,6 @@
-import { gql } from '@apollo/client';
+import { gql } from "@apollo/client";
 
-export cosnt GET_ME = gql`
+export const GET_ME = gql`
 query me {
 
-}`
-;
+}`;
