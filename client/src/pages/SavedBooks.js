@@ -18,6 +18,7 @@ const SavedBooks = () => {
 
   // use this to determine if `useEffect()` hook needs to run again
   const userData = data?.me || [];
+  console.log(userData);
 
   if (!userData?.username) {
     return <h2>You must login to view this page.</h2>;
