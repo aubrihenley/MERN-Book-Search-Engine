@@ -37,9 +37,9 @@ SO THAT I can keep a list of books to purchase
 - React Hooks
 
 ## Screen Shots
-[Book Search Engine](https://github.com/aubrihenley/MERN-Book-Search-Engine/blob/master/client/public/booksearch.png)
-[Book Search Results](https://github.com/aubrihenley/MERN-Book-Search-Engine/blob/master/client/public/searchResults.png)
-[Saved Books](https://github.com/aubrihenley/MERN-Book-Search-Engine/blob/master/client/public/savedBooks.png)
+![Book Search Engine](https://github.com/aubrihenley/MERN-Book-Search-Engine/blob/master/client/public/booksearch.png)
+![Book Search Results](https://github.com/aubrihenley/MERN-Book-Search-Engine/blob/master/client/public/searchResults.png)
+![Saved Books](https://github.com/aubrihenley/MERN-Book-Search-Engine/blob/master/client/public/savedBooks.png)
 
 ## Questions:
 
